@@ -1,0 +1,38 @@
+{
+    "name": "dalewpdevph/category-tree",
+    "description": "Builds a category tree structure for your menu and links.",
+    "type": "craft-plugin",
+    "version": "1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "category tree"
+    ],
+    "support": {
+        "docs": "https://github.com/dalewpdevph/category-tree/blob/master/README.md",
+        "issues": "https://github.com/dalewpdevph/category-tree/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Precious Dale Ramirez",
+            "homepage": "https://github.com/dalewpdevph"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+          "dalewpdevph\\categoryTree\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Category Tree",
+        "handle": "categoryTree",
+        "schemaVersion": "1",
+        "changelogUrl": "https://raw.githubusercontent.com/dalewpdevph/category-tree/master/CHANGELOG.md",
+        "class": "dalewpdevph\\categoryTree\\CategoryTree"
+    }
+}

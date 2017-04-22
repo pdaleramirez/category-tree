@@ -1,0 +1,10 @@
+
+{{ list }}
+
+{% do view.registerAssetBundle("dalewpdevph\\categoryTree\\assetbundles\\tree\\CategoryTreeAsset") %}
+
+{% includejs %}
+
+var menu=new menu.dd("menu");
+menu.init("category-tree-menu", "menuhover");
+{% endincludejs %}
