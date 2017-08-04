@@ -10,11 +10,12 @@
 
 namespace dalewpdevph\categoryTree;
 
-
 use Craft;
 use craft\base\Plugin;
+use craft\web\twig\variables\CraftVariable;
 use dalewpdevph\categoryTree\services\Utilities;
 use dalewpdevph\categoryTree\variables\CategoryTreeVariable;
+use yii\base\Event;
 
 /**
  * @author    Precioud Dale Ramirez
@@ -40,6 +41,12 @@ class CategoryTree extends Plugin
 	  ]);
 
 	  self::$app = $this->get('utilities');
+
+	  Event::on(CraftVariable::class, CraftVariable::EVENT_INIT, function(Event $event) {
+
+		  $variable = $event->sender;
+		  $variable->set('categorytree', CategoryTreeVariable::class);
+	  });
   }
 
 	/**
@@ -51,13 +58,5 @@ class CategoryTree extends Plugin
 	public static function t($message, array $params = [])
 	{
 		return Craft::t('categorytree', $message, $params);
-	}
-
-	/**
-	 * @return mixed
-	 */
-	public function defineTemplateComponent()
-	{
-		return CategoryTreeVariable::class;
 	}
 }

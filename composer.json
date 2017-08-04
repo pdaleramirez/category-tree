@@ -2,7 +2,7 @@
     "name": "dalewpdevph/category-tree",
     "description": "Builds a category tree structure for your menu and links.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "keywords": [
         "craft",
         "cms",
