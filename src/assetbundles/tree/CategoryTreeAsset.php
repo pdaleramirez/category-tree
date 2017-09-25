@@ -1,6 +1,6 @@
 <?php
 
-namespace dalewpdevph\categoryTree\assetbundles\tree;
+namespace pdaleramirez\categoryTree\assetbundles\tree;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -9,7 +9,7 @@ class CategoryTreeAsset extends AssetBundle
 {
 	public function init()
 	{
-		$this->sourcePath = "@dalewpdevph/categoryTree/assetbundles/tree/dist";
+		$this->sourcePath = "@pdaleramirez/categoryTree/assetbundles/tree/dist";
 
 		$this->depends = [
 			CpAsset::class,

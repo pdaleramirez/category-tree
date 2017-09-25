@@ -1,6 +1,6 @@
 <?php
 
-namespace dalewpdevph\categoryTree\services;
+namespace pdaleramirez\categoryTree\services;
 
 use craft\elements\Category;
 use yii\base\Component;

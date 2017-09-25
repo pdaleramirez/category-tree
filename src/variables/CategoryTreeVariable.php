@@ -1,11 +1,11 @@
 <?php
 
-namespace dalewpdevph\categoryTree\variables;
+namespace pdaleramirez\categoryTree\variables;
 
 use Craft;
 use craft\helpers\Template;
 use craft\web\View;
-use dalewpdevph\categoryTree\CategoryTree;
+use pdaleramirez\categoryTree\CategoryTree;
 
 class CategoryTreeVariable
 {

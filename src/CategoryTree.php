@@ -4,17 +4,17 @@
  *
  * Builds a Category tree structure for your menu and links.
  *
- * @link      https://github.com/dalewpdevph
+ * @link      https://github.com/pdaleramirez
  * @copyright Copyright (c) 2017 Precioud Dale Ramirez
  */
 
-namespace dalewpdevph\categoryTree;
+namespace pdaleramirez\categoryTree;
 
 use Craft;
 use craft\base\Plugin;
 use craft\web\twig\variables\CraftVariable;
-use dalewpdevph\categoryTree\services\Utilities;
-use dalewpdevph\categoryTree\variables\CategoryTreeVariable;
+use pdaleramirez\categoryTree\services\Utilities;
+use pdaleramirez\categoryTree\variables\CategoryTreeVariable;
 use yii\base\Event;
 
 /**
@@ -28,7 +28,7 @@ class CategoryTree extends Plugin
 	/**
 	 * Enable use of CategoryTree::$plugin-> in place of Craft::$app->
 	 *
-	 * @var \dalewpdevph\categoryTree\services\Utilities
+	 * @var \pdaleramirez\categoryTree\services\Utilities
 	 */
   public static $app;
 
