@@ -31,7 +31,7 @@
     },
     "extra": {
         "name": "Category Tree",
-        "handle": "categoryTree",
+        "handle": "category-tree",
         "schemaVersion": "1",
         "changelogUrl": "https://raw.githubusercontent.com/pdaleramirez/category-tree/master/CHANGELOG.md",
         "class": "pdaleramirez\\categoryTree\\CategoryTree"
