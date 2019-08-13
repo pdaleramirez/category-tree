@@ -224,7 +224,6 @@ Third parameter is the css class of the "ul" html element.
                                   'class': 'category-tree'
                                   }) }}
 ```
-Source Demo: http://sandbox.scriptiny.com/dropdown-menu/
                                   
                                 
 
