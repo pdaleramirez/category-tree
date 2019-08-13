@@ -2,7 +2,7 @@
     "name": "pdaleramirez/category-tree",
     "description": "Builds a category tree structure for your menu and links.",
     "type": "craft-plugin",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "keywords": [
         "craft",
         "cms",
